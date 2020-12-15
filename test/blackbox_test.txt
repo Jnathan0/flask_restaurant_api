@@ -1,0 +1,30 @@
+
+Results for TestCart: 
+-------------
+Tests run: 2
+Errors: 0
+Failures: 0
+Success: 2
+Skipped: 0
+
+Results for TestRestaurants: 
+-------------
+Tests run: 5
+Errors: 0
+Failures: 0
+Success: 5
+Skipped: 0
+
+Results for TestUsers: 
+-------------
+Tests run: 10
+Errors: 0
+Failures: 3
+    * (<__main__.TestUsers testMethod=testCreateDuplicated>, 'Traceback (most recent call last):\n  File "test.py", line 65, in testCreateDuplicated\n    self.assertEqual(response.status_code, 409)\nAssertionError: 400 != 409\n')
+
+    * (<__main__.TestUsers testMethod=testEdgecaseCreate>, 'Traceback (most recent call last):\n  File "test.py", line 54, in testEdgecaseCreate\n    self.assertEqual(response.status_code, 201)\nAssertionError: 500 != 201\n')
+
+    * (<__main__.TestUsers testMethod=testNotAuth>, 'Traceback (most recent call last):\n  File "test.py", line 74, in testNotAuth\n    self.assertFalse(response.json()[\'message\'][\'verify\'], True)\nAssertionError: True is not false : True\n')
+
+Success: 7
+Skipped: 0

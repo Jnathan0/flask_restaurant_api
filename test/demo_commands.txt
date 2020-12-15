@@ -1,0 +1,12 @@
+curl -v -X PUT -H "Content-Type: application/json" -d '{"email": "demouser@demo.com", "password": "password", "first": "test", "last": "user", "address": "5412 test lane", "city": "tustin", "zip": 58382, "state": "CA", "phone": 18583334954}' localhost:5000/api/users
+curl -v -X GET -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com", "password": "password"}' localhost:5000/api/users
+curl -v -X GET -H "Content-Type: Application/json" -d '{"zipcode": 92606}' localhost:5000/api/restaurants
+curl -v -X GET -H "Content-Type: Application/json" -d '{"zipcode": 92606, "name": "Burntzilla"}' localhost:5000/api/restaurants
+curl -v -X GET -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com"}' localhost:5000/api/carts
+curl -v -X PUT -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com", "items": [10,11]}' localhost:5000/api/carts
+curl -v -X PUT -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com", "items": [1,9]}' localhost:5000/api/carts
+curl -v -X GET -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com"}' localhost:5000/api/carts
+curl -v -X DELETE -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com", "items": [10]}' localhost:5000/api/carts
+curl -v -X GET -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com"}' localhost:5000/api/carts
+curl -v -X POST -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com"}' localhost:5000/api/carts
+curl -v -X GET -H "Content-Type: Application/json" -d '{"email": "demouser@demo.com"}' localhost:5000/api/carts

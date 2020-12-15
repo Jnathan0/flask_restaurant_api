@@ -1,0 +1,253 @@
+19:50:50 gateway.1     | started with pid 2463282
+19:50:50 users.1       | started with pid 2463283
+19:50:50 users.2       | started with pid 2463285
+19:50:50 users.3       | started with pid 2463287
+19:50:50 restaurants.1 | started with pid 2463289
+19:50:50 restaurants.2 | started with pid 2463291
+19:50:50 restaurants.3 | started with pid 2463293
+19:50:50 carts.1       | started with pid 2463295
+19:50:50 carts.2       | started with pid 2463297
+19:50:50 carts.3       | started with pid 2463305
+19:50:50 gateway.1     |  * Serving Flask app "gateway" (lazy loading)
+19:50:50 gateway.1     |  * Environment: development
+19:50:50 gateway.1     |  * Debug mode: on
+19:50:50 gateway.1     |  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+19:50:50 gateway.1     |  * Restarting with stat
+19:50:50 restaurants.1 |  * Serving Flask app "restaurants_app" (lazy loading)
+19:50:50 restaurants.1 |  * Environment: development
+19:50:51 restaurants.1 |  * Debug mode: on
+19:50:51 carts.1       |  * Serving Flask app "carts_app" (lazy loading)
+19:50:51 carts.1       |  * Environment: development
+19:50:51 carts.1       |  * Debug mode: on
+19:50:51 restaurants.1 |  * Running on http://127.0.0.1:5200/ (Press CTRL+C to quit)
+19:50:51 restaurants.1 |  * Restarting with stat
+19:50:51 carts.1       |  * Running on http://127.0.0.1:5300/ (Press CTRL+C to quit)
+19:50:51 carts.1       |  * Restarting with stat
+19:50:51 users.2       |  * Serving Flask app "users_app" (lazy loading)
+19:50:51 users.2       |  * Environment: development
+19:50:51 users.2       |  * Debug mode: on
+19:50:51 users.3       |  * Serving Flask app "users_app" (lazy loading)
+19:50:51 users.3       |  * Environment: development
+19:50:51 users.3       |  * Debug mode: on
+19:50:51 users.2       |  * Running on http://127.0.0.1:5101/ (Press CTRL+C to quit)
+19:50:51 users.2       |  * Restarting with stat
+19:50:51 users.3       |  * Running on http://127.0.0.1:5102/ (Press CTRL+C to quit)
+19:50:51 users.3       |  * Restarting with stat
+19:50:51 restaurants.3 |  * Serving Flask app "restaurants_app" (lazy loading)
+19:50:51 carts.2       |  * Serving Flask app "carts_app" (lazy loading)
+19:50:51 carts.2       |  * Environment: development
+19:50:51 carts.2       |  * Debug mode: on
+19:50:51 users.1       |  * Serving Flask app "users_app" (lazy loading)
+19:50:51 users.1       |  * Environment: development
+19:50:51 users.1       |  * Debug mode: on
+19:50:51 restaurants.2 |  * Serving Flask app "restaurants_app" (lazy loading)
+19:50:51 carts.2       |  * Running on http://127.0.0.1:5301/ (Press CTRL+C to quit)
+19:50:51 restaurants.3 |  * Environment: development
+19:50:51 restaurants.3 |  * Debug mode: on
+19:50:51 restaurants.2 |  * Environment: development
+19:50:51 restaurants.2 |  * Debug mode: on
+19:50:51 carts.2       |  * Restarting with stat
+19:50:51 users.1       |  * Running on http://127.0.0.1:5100/ (Press CTRL+C to quit)
+19:50:51 users.1       |  * Restarting with stat
+19:50:51 restaurants.2 |  * Running on http://127.0.0.1:5201/ (Press CTRL+C to quit)
+19:50:51 restaurants.2 |  * Restarting with stat
+19:50:51 restaurants.3 |  * Running on http://127.0.0.1:5202/ (Press CTRL+C to quit)
+19:50:51 restaurants.3 |  * Restarting with stat
+19:50:51 carts.3       |  * Serving Flask app "carts_app" (lazy loading)
+19:50:51 carts.3       |  * Environment: development
+19:50:51 carts.3       |  * Debug mode: on
+19:50:51 carts.3       |  * Running on http://127.0.0.1:5302/ (Press CTRL+C to quit)
+19:50:51 carts.3       |  * Restarting with stat
+19:50:51 restaurants.1 |  * Debugger is active!
+19:50:51 restaurants.1 |  * Debugger PIN: 293-493-950
+19:50:51 users.3       |  * Debugger is active!
+19:50:51 users.3       |  * Debugger PIN: 293-493-950
+19:50:51 gateway.1     |  * Debugger is active!
+19:50:51 gateway.1     |  * Debugger PIN: 293-493-950
+19:50:51 carts.1       |  * Debugger is active!
+19:50:51 carts.1       |  * Debugger PIN: 293-493-950
+19:50:51 restaurants.3 |  * Debugger is active!
+19:50:51 restaurants.3 |  * Debugger PIN: 293-493-950
+19:50:51 users.2       |  * Debugger is active!
+19:50:51 users.2       |  * Debugger PIN: 293-493-950
+19:50:51 restaurants.2 |  * Debugger is active!
+19:50:51 restaurants.2 |  * Debugger PIN: 293-493-950
+19:50:51 users.1       |  * Debugger is active!
+19:50:51 users.1       |  * Debugger PIN: 293-493-950
+19:50:51 carts.2       |  * Debugger is active!
+19:50:51 carts.2       |  * Debugger PIN: 293-493-950
+19:50:51 carts.3       |  * Debugger is active!
+19:50:51 carts.3       |  * Debugger PIN: 293-493-950
+19:51:10 users.1       | 127.0.0.1 - - [13/Dec/2020 19:51:10] "[37mPUT /api/users HTTP/1.1[0m" 201 -
+19:51:10 gateway.1     | [2020-12-13 19:51:10,782] INFO in gateway: <Response [201]>, http://localhost:5100
+19:51:10 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:10] "[37mPUT /api/users HTTP/1.1[0m" 201 -
+19:51:10 carts.1       | [2020-12-13 19:51:10,787] INFO in carts_app: 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | PID's in parameters: [11, 10]
+19:51:10 carts.1       | 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | [2020-12-13 19:51:10,787] INFO in carts_app: 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | Executing query for adding to restaurant_id's: [6]
+19:51:10 carts.1       | 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | [2020-12-13 19:51:10,787] INFO in carts_app: 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | Executing query for adding to restaurant_id's: [6]
+19:51:10 carts.1       | 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | [2020-12-13 19:51:10,788] INFO in carts_app: 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | adding item id: 11 to cartuser@user.com's cart
+19:51:10 carts.1       | 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | [2020-12-13 19:51:10,955] INFO in carts_app: 
+19:51:10 carts.1       | 
+19:51:10 carts.1       | adding item id: 10 to cartuser@user.com's cart
+19:51:10 carts.1       | 
+19:51:10 carts.1       | 
+19:51:11 carts.1       | [2020-12-13 19:51:11,013] INFO in carts_app: 
+19:51:11 carts.1       | 
+19:51:11 carts.1       | Restaurant ID's that belond to items, all same. [6, 6]
+19:51:11 carts.1       | 
+19:51:11 carts.1       | 
+19:51:11 carts.1       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mPUT /api/carts HTTP/1.1[0m" 201 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,015] INFO in gateway: <Response [201]>, http://localhost:5300
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mPUT /api/carts HTTP/1.1[0m" 201 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,021] INFO in gateway: <Response [409]>, http://localhost:5101
+19:51:11 users.2       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mPUT /api/users HTTP/1.1[0m" 409 -
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mPUT /api/users HTTP/1.1[0m" 409 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,029] INFO in gateway: <Response [400]>, http://localhost:5301
+19:51:11 carts.2       | [2020-12-13 19:51:11,028] INFO in carts_app: 
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mPUT /api/carts HTTP/1.1[0m" 400 -
+19:51:11 carts.2       | 
+19:51:11 carts.2       | PID's in parameters: [2, 10]
+19:51:11 carts.2       | 
+19:51:11 carts.2       | 
+19:51:11 carts.2       | [2020-12-13 19:51:11,028] INFO in carts_app: 
+19:51:11 carts.2       | 
+19:51:11 carts.2       | Executing query for adding to restaurant_id's: [1]
+19:51:11 carts.2       | 
+19:51:11 carts.2       | 
+19:51:11 carts.2       | [2020-12-13 19:51:11,028] INFO in carts_app: 
+19:51:11 carts.2       | 
+19:51:11 carts.2       | Executing query for adding to restaurant_id's: [6]
+19:51:11 carts.2       | 
+19:51:11 carts.2       | 
+19:51:11 carts.2       | [2020-12-13 19:51:11,028] INFO in carts_app: Restaurants do not match when adding items to cart: PASS
+19:51:11 carts.2       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mPUT /api/carts HTTP/1.1[0m" 400 -
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,066] INFO in restaurants_app: Object created parameters: ['zipcode']
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,066] INFO in restaurants_app: Query Map created for params object: PASS
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,066] INFO in restaurants_app: This is supposed to be a tuple of db name and value: ('restaurant_zip', 92691)
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,066] INFO in restaurants_app: Variable Name: zipcode - Variable Value: ('restaurant_zip', 92691)
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,066] INFO in restaurants_app: Built query is:SELECT * FROM restaurants WHERE restaurant_zip=?
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,066] INFO in restaurants_app: Displaying values for query placeholders. 
+19:51:11 restaurants.1 | (92691,)
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,067] INFO in restaurants_app: 
+19:51:11 restaurants.1 | 
+19:51:11 restaurants.1 | Item ID number IS: 4 PASS
+19:51:11 restaurants.1 | 
+19:51:11 restaurants.1 | 
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,067] INFO in restaurants_app: 
+19:51:11 restaurants.1 | 
+19:51:11 restaurants.1 | Getting data from db for get_products(): [(5, 'Avocado Bacon Burger', 6.99, 'American beef patty with cheese, avocado and bacon', None, 20, 4), (6, 'Fried Zucchini', 3.99, 'Breaded zucchini with garlic seasoning', None, 12, 4)]
+19:51:11 restaurants.1 | 
+19:51:11 restaurants.1 | 
+19:51:11 restaurants.1 | [2020-12-13 19:51:11,067] INFO in restaurants_app: 
+19:51:11 restaurants.1 |  Data build for query against restuaraunts: {'Restaurants': [{'Address': '24902 Chrisanta Dr', 'Business Hours': '7am-9pm', 'Name': 'TK Burgers', 'ID Number': 4, 'Zipcode': 92691, 'Pickup': 1, 'Delivery': 0, 'Latitude': 33.601, 'Longitude': -117.672, 'Phone': 19495887200, 'City': 'Mission Viejo', 'Description': 'Mom and pop american burger joint specializing in all the classics', 'State': 'CA', '_Products': [{'ID': 5, 'Name': 'Avocado Bacon Burger', 'Desc': 'American beef patty with cheese, avocado and bacon', 'Price': 6.99, 'Stock': 20}, {'ID': 6, 'Name': 'Fried Zucchini', 'Desc': 'Breaded zucchini with garlic seasoning', 'Price': 3.99, 'Stock': 12}]}]}
+19:51:11 restaurants.1 | 
+19:51:11 gateway.1     | [2020-12-13 19:51:11,069] INFO in gateway: <Response [200]>, http://localhost:5200
+19:51:11 restaurants.1 | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/restaurants HTTP/1.1[0m" 200 -
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/restaurants HTTP/1.1[0m" 200 -
+19:51:11 restaurants.2 | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mGET /api/restaurants HTTP/1.1[0m" 400 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,077] INFO in gateway: <Response [400]>, http://localhost:5201
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mGET /api/restaurants HTTP/1.1[0m" 400 -
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,084] INFO in restaurants_app: Object created parameters: ['zipcode']
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,084] INFO in restaurants_app: Query Map created for params object: PASS
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,084] INFO in restaurants_app: This is supposed to be a tuple of db name and value: ('restaurant_zip', 0)
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,084] INFO in restaurants_app: Variable Name: zipcode - Variable Value: ('restaurant_zip', 0)
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,084] INFO in restaurants_app: Built query is:SELECT * FROM restaurants WHERE restaurant_zip=?
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,086] INFO in restaurants_app: Displaying values for query placeholders. 
+19:51:11 restaurants.3 | (0,)
+19:51:11 restaurants.3 | [2020-12-13 19:51:11,088] INFO in restaurants_app: 
+19:51:11 restaurants.3 |  Data build for query against restuaraunts: {'Restaurants': []}
+19:51:11 restaurants.3 | 
+19:51:11 restaurants.3 | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/restaurants HTTP/1.1[0m" 200 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,090] INFO in gateway: <Response [200]>, http://localhost:5202
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/restaurants HTTP/1.1[0m" 200 -
+19:51:11 users.3       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/users HTTP/1.1[0m" 200 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,099] INFO in gateway: <Response [200]>, http://localhost:5102
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/users HTTP/1.1[0m" 200 -
+19:51:11 users.1       | [2020-12-13 19:51:11,105] INFO in users_app: Password not found in parameters for creating 
+19:51:11 gateway.1     | [2020-12-13 19:51:11,106] INFO in gateway: <Response [400]>, http://localhost:5100
+19:51:11 users.1       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mPUT /api/users HTTP/1.1[0m" 400 -
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[31m[1mPUT /api/users HTTP/1.1[0m" 400 -
+19:51:11 users.2       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[35m[1mDELETE /api/users HTTP/1.1[0m" 500 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,118] INFO in gateway: <Response [500]>, http://localhost:5101
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[35m[1mDELETE /api/users HTTP/1.1[0m" 500 -
+19:51:11 users.3       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[35m[1mPUT /api/users HTTP/1.1[0m" 500 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,129] INFO in gateway: <Response [500]>, http://localhost:5102
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[35m[1mPUT /api/users HTTP/1.1[0m" 500 -
+19:51:11 users.1       | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/users HTTP/1.1[0m" 200 -
+19:51:11 gateway.1     | [2020-12-13 19:51:11,137] INFO in gateway: <Response [200]>, http://localhost:5100
+19:51:11 gateway.1     | 127.0.0.1 - - [13/Dec/2020 19:51:11] "[37mGET /api/users HTTP/1.1[0m" 200 -
+19:51:17 users.3       | Traceback (most recent call last):
+19:51:17 system        | SIGINT received, starting shutdown
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+19:51:17 users.3       |     return self.wsgi_app(environ, start_response)
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+19:51:17 users.3       |     response = self.handle_exception(e)
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+19:51:17 users.3       |     reraise(exc_type, exc_value, tb)
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+19:51:17 users.3       |     raise value
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+19:51:17 users.3       |     response = self.full_dispatch_request()
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+19:51:17 users.3       |     rv = self.handle_user_exception(e)
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+19:51:17 users.3       |     reraise(exc_type, exc_value, tb)
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+19:51:17 users.3       |     raise value
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+19:51:17 users.3       |     rv = self.dispatch_request()
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+19:51:17 users.3       |     return self.view_functions[rule.endpoint](**req.view_args)
+19:51:17 users.3       |   File "/home/user/Documents/homework/cpsc362/project/app/users_app.py", line 127, in user_creator
+19:51:17 users.3       |     c.execute("INSERT INTO users (email, hash_pass, first_name, last_name, user_address, user_city, user_zip, user_state, user_phone) VALUES (?,?,?,?,?,?,?,?,?)", (params.email, params.hash_pass, params.first, params.last, params.address, params.city, params.zip, params.state, params.phone))
+19:51:17 users.3       | OverflowError: Python int too large to convert to SQLite INTEGER
+19:51:17 users.2       | Traceback (most recent call last):
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+19:51:17 users.2       |     return self.wsgi_app(environ, start_response)
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+19:51:17 users.2       |     response = self.handle_exception(e)
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+19:51:17 users.2       |     reraise(exc_type, exc_value, tb)
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+19:51:17 users.2       |     raise value
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+19:51:17 users.2       |     response = self.full_dispatch_request()
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+19:51:17 users.2       |     rv = self.handle_user_exception(e)
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+19:51:17 users.2       |     reraise(exc_type, exc_value, tb)
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+19:51:17 users.2       |     raise value
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+19:51:17 users.2       |     rv = self.dispatch_request()
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+19:51:17 users.2       |     return self.view_functions[rule.endpoint](**req.view_args)
+19:51:17 users.2       |   File "/home/user/Documents/homework/cpsc362/project/app/users_app.py", line 73, in delete_user
+19:51:17 users.2       |     user = UserObject(query_params['email'])
+19:51:17 users.2       | TypeError: __init__() missing 1 required positional argument: 'func'
+19:51:18 system        | sending SIGTERM to all processes
+19:51:18 gateway.1     | terminated by SIGINT
+19:51:18 users.1       | terminated by SIGINT
+19:51:18 users.2       | terminated by SIGINT
+19:51:19 users.3       | terminated by SIGINT
+19:51:19 restaurants.1 | terminated by SIGINT
+19:51:19 restaurants.2 | terminated by SIGINT
+19:51:19 restaurants.3 | terminated by SIGINT
+19:51:19 carts.1       | terminated by SIGINT
+19:51:19 carts.2       | terminated by SIGINT
+19:51:19 carts.3       | terminated by SIGINT

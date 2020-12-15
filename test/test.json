@@ -1,0 +1,38 @@
+{
+    "catalogs":
+    {
+        "Restaurants": [
+            {
+                "Address": "24902 Chrisanta Dr",
+                "Business Hours": "7am-9pm",
+                "City": "Mission Viejo",
+                "Delivery": 0,
+                "Description": "Mom and pop american burger joint specializing in all the classics",
+                "ID Number": 4,
+                "Latitude": 33.601,
+                "Longitude": -117.672,
+                "Name": "TK Burgers",
+                "Phone": 19495887200,
+                "Pickup": 1,
+                "State": "CA",
+                "Zipcode": 92691,
+                "_Products": [
+                    {
+                        "Desc": "American beef patty with cheese, avocado and bacon",
+                        "ID": 5,
+                        "Name": "Avocado Bacon Burger",
+                        "Price": 6.99,
+                        "Stock": 20
+                    },
+                    {
+                        "Desc": "Breaded zucchini with garlic seasoning",
+                        "ID": 6,
+                        "Name": "Fried Zucchini",
+                        "Price": 3.99,
+                        "Stock": 12
+                    }
+                ]
+            }
+        ]
+    }
+}
